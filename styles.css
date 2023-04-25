@@ -1,0 +1,79 @@
+/*! Resto del documento */
+html {
+  margin-top: 5%;
+  text-align: center;
+  align-items: center;
+  letter-spacing: 3px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+h2 {
+  text-align: center;
+  align-items: center;
+  background-color: rgb(11, 9, 23);
+  color: white;
+  margin: 10% 30%;
+  border-radius: 5px;
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 5px;
+}
+
+span {
+  color: rgb(38, 100, 235);
+}
+
+/*! boton */
+.btn {
+  border: 1px solid rgb(16, 13, 34);
+  color: rgb(16, 13, 34);
+  padding: 10px 15px 10px 15px;
+  letter-spacing: 3px;
+  border-radius: 5px;
+  background-color: transparent;
+  font-weight: bold;
+  font-size: 12px;
+}
+
+.btn:hover {
+  color: white;
+  background-color: rgb(16, 13, 34);
+  transition: all 0.3s;
+}
+
+/*! lista */
+li {
+  font-weight: bold;
+  margin: auto;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+}
+
+.nav-center {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+
+  background-color: white;
+  color: black;
+  box-shadow: 1px 1px 10px black;
+  padding: 1px;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+  letter-spacing: 3px;
+}
+
+a:hover {
+  color: rgb(38, 100, 235);
+  transition: all 0.3s;
+}
+
+.active {
+  color: rgb(38, 100, 235);
+}
